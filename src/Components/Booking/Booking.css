@@ -1,0 +1,70 @@
+.booking_page {
+  margin: 100px 0;
+  text-align: left;
+}
+
+.booking_page_destination {
+  margin-top: 20px;
+}
+
+.booking_facility {
+  color: #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  vertical-align: top;
+}
+
+.booking_form {
+  margin: 30px;
+  margin-top: 0;
+  border-radius: 5px;
+  background-color: #e9e9e9;
+  padding: 30px;
+}
+
+.booking_form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+.booking_form input {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0;
+  margin-bottom: 20px;
+}
+
+.booking_button_done {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  background-color: var(--yellow);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.booking_button {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--yellow);
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  cursor: not-allowed !important;
+}

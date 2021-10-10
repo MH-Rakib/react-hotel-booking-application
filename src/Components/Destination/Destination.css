@@ -1,0 +1,68 @@
+.destination_page {
+  margin: 100px 0;
+}
+
+.destination_heading {
+  margin-top: 10px;
+  font-size: 72px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.destination_details {
+  color: #ccc;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.destination {
+  position: relative;
+  border: 5px solid transparent;
+  border-radius: 20px;
+  transition: 0.3s all ease-in-out;
+  overflow: hidden;
+}
+
+.destinations .row > * {
+  padding-right: calc(var(--bs-gutter-x) * 0.05);
+  padding-left: calc(var(--bs-gutter-x) * 0.05);
+  margin-top: var(--bs-gutter-y);
+}
+
+.destination_name {
+  position: absolute;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 400;
+  bottom: 10%;
+  left: 10%;
+}
+
+.destination img {
+  width: 100%;
+  transition: 0.4s all ease-in-out;
+}
+
+.destination_booking_button {
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 7px 20px;
+  color: #111;
+  background-color: var(--yellow);
+}
+
+.active_destination {
+  border-color: var(--yellow);
+  /* overflow: hidden; */
+  /* transition: 0.4s all ease-in-out; */
+}
+
+.active_destination img {
+  transform: scale(1.2);
+}
+
+.destination_details {
+  min-height: 145px;
+  margin: 0;
+}

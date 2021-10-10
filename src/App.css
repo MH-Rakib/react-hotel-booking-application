@@ -1,5 +1,32 @@
+:root {
+  --yellow: #f58c03;
+  --white: #ffffff;
+}
+
 .App {
   text-align: center;
+  background-image: url("./Assets//Image/Rectangle\ 1.png");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.App::after {
+  position: absolute;
+  content: " ";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.685);
+  z-index: 1;
+}
+
+.body {
+  position: relative;
+  z-index: 2;
 }
 
 .App-logo {
